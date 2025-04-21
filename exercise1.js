@@ -1,6 +1,6 @@
 function checkEvenOdd() {
     let num = prompt("Enter the number");
-    if (num === null || num.trim() === "") 
+    if (num.trim() === "") 
         {alert("You don't enter anything.");return;}   
     if (isNaN(num)) 
             {alert("That is not a number.");}
